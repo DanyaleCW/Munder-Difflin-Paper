@@ -1,0 +1,32 @@
+h2, h1 {
+	text-align: center;
+	color: #849091;
+}
+
+h3 {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+.flip {
+	display: inline-block;
+	vertical-align: top;
+	transform: scaleX(-1);
+	-ms-filter: fliph;
+	filter: fliph;
+	
+}
+
+
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+p{
+	text-align: center;
+}
+

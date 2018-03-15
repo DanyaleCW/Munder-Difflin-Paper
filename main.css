@@ -1,15 +1,31 @@
 /*font-family: 'Tangerine', cursive;*/
 
 body {
+	color: #292b34;
 	font-family: 'Tangerine', cursive;
 	font-size: 30px;
 	background-color: #d3f1f0;
 }
 
+#right {
+	background-color: #a2cfc8;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	right: 0;
+	z-index: -1;
+}
+
+
 h2, h1 {
 	text-align: center;
-	color: #849091;
+	color: #884c3e;
 	font-size: 50px;
+}
+
+span {
+	font-size: 90px;
 }
 
 h4 {
@@ -25,6 +41,7 @@ h3 {
 	padding-bottom: 30px;
 	border-bottom: 2px solid black;
 	text-align: center;
+	color: #624970;
 }
 
 .flip {
@@ -41,6 +58,9 @@ h3 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding-top: 80px;
+	background-color: linear-gradient(to bottom, black 0%, black 50%,
+		#000000 50%, white 50%, white 100%);
 }
 
 p {
@@ -80,6 +100,13 @@ h1 {
 	animation-duration: 2s;
 	-webkit-animation-name: bounceIn;
 	animation-name: bounceIn;
+}
+
+footer {
+	background-color: #ad8e5b;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	text-align: center;
 }
 
 .hidden {

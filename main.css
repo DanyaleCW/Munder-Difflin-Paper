@@ -82,7 +82,9 @@ h1 {
 	animation-name: bounceIn;
 }
 
-
+.hidden {
+	opacity: 0;
+}
 
 
 

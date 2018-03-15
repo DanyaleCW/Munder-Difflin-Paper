@@ -1,0 +1,1 @@
+This is a fictional website created as a fellowship project using HMTL, CSS and JavaScript. The project is to show my skills I have learned in the program to this point.  No installations are required.  

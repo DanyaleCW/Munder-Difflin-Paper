@@ -7,8 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
 </head>
 <body>
+	<div id="right"></div>
 	<div>
-		<h1>MDP</h1>
+		<h1>M<span>D</span>P</h1>
 		<h2>Munder Difflin Paper</h2>
 			<h3>Highend paper for people with exceptional taste</h3>
 	</div>
@@ -17,28 +18,30 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 	</div>
 	<div class="images">
-			<div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="washi.jpg" alt="Washi Paper" width="200" height="200" onmouseOut="mouseOut"(this)"><p>Washi Paper</p></div>
+			<div><img id="washi" imageonmouseover="bigImg(this)" onmouseout="normalImg(this)" onclick="changeImage()" src="images/washi.jpg" alt="Washi Paper" width="200" height="200" onmouseOut="mouseOut"(this)"><p>Washi Paper</p></div>
 
 
-		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="marble.jpg" alt="Marble Paper" width="200" height="200"><p>Marble Paper</p></div>
+		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/marble.jpg" alt="Marble Paper" width="200" height="200"><p>Marble Paper</p></div>
 
-		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="lokta.jpg" alt="Lokta Paper" width="200" height="200"><p>Lokta Paper</p></div>
+		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/lokta.jpg" alt="Lokta Paper" width="200" height="200"><p>Lokta Paper</p></div>
 
-		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="natural.jpg" alt="Natural Paper" width="200" height="200"><p>Natural Paper</p></div>
+		 <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/natural.jpg" alt="Natural Paper" width="200" height="200"><p>Natural Paper</p></div>
 	</div>
 
 <div class="hidden">
-			<img onmouseover="bigImg(this)"src="washi2.jpg" alt="Washi Paper" width="400" height="400" >
+			<img id="washi2" onmouseover="bigImg(this)" src="images/washi2.jpg" alt="Washi Paper" width="400" height="400" >
 
 
-		 <img src="marble2.jpg" alt="Marble Paper" width="200" height="200"</p>
+		 <img src="images/marble2.jpg" alt="Marble Paper" width="200" height="200"</p>
 
-		 <img src="lokta2.jpg" alt="Lokta Paper" width="200" height="200">
+		 <img src="images/lokta2.jpg" alt="Lokta Paper" width="200" height="200">
 
-		 <img src="natural2.jpg" alt="Natural Paper" width="200" height="200">
+		 <img src="images/natural2.jpg" alt="Natural Paper" width="200" height="200">
 </div>		 
 
-<footer>&copy; 2018 Fine Paper Inc. 6789 Confetti Way, Papier-mache, USA 12345  </footer>
+<footer>&copy; 2018 Fine Paper Inc. 6789 Confetti Way, Papier-Mache, USA 12345  <div class="footer">Coded and Designed by: Code, Design, Surf Inc.</div></footer>
 <script src="main.js"></script>
+
+
 </body>
 </html>

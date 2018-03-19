@@ -1,4 +1,23 @@
 
+//var 
+
+const changeImage = document.getElementById('washi');
+
+
+  changeImage.addEventListener('mouseover', function() {
+      let imgsrc = changeImage.getAttribute('src');
+      
+      if(imgsrc === 'images/washi.jpg') {
+
+        changeImage.src = "images/washi2.jpeg";
+
+      } else if(imgsrc = "images/washi2.jpeg"){
+
+        changeImage.src = "images/washi.jpg";
+      }
+    });
+
+
 
   
 /*var imgChange = document.getElementById("washi");
@@ -14,24 +33,14 @@ function myFunction() {
 
 
 
-  /*let img = document.getElementById("washi");
+  /*x.addEventListener("mouseout", Function());
+  let img = document.getElementById("washi");
 
   function swapImage() {
     if(img.src == "images/washi.jpg") {
       img.src = "images/washi2.jpg";
     } else { img.src = "images/washi.jpg";
-  }
-
-  let x = document.querySelector(".swaping");
-  x.addEventListener("click",function(){
-    swapImage()
-  })*/
-
-
-
-
-
-//file:///Users/Danyale/Documents/Munder-Difflin-Paper%20/images/washi.jpg
+  }*/
 
 
 
@@ -39,9 +48,6 @@ function myFunction() {
   x.addEventListener("mouseover", myFunction);
   x.addEventListener("mouseout", myFunction);
 
-  function myFunction() {
-  	document.getElementById("hidden").innerHTML = ("string")
-  }*/
 
 
 /*function mouseRollOver(MyImage) {

@@ -17,6 +17,17 @@ body {
 	z-index: -1;
 }
 
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-column-gap: 1px;
+
+}
+
+li {
+	list-style-type: none;
+}
+
 
 h2, h1 {
 	text-align: center;

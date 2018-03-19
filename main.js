@@ -2,27 +2,52 @@
 //var 
 
 const changeImage = document.getElementById('washi');
+
+
   changeImage.addEventListener('mouseover', function() {
-      if(image.src == 'washi') {
-        img.src="images/washi2.jpg";
-      } else {
-        img.src="images/washi.jpg";
+      let imgsrc = changeImage.getAttribute('src');
+      
+      if(imgsrc === 'images/washi.jpg') {
+
+        changeImage.src = "images/washi2.jpeg";
+
+      } else if(imgsrc = "images/washi2.jpeg"){
+
+        changeImage.src = "images/washi.jpg";
       }
-    })
+    });
 
 
 
+  
+/*var imgChange = document.getElementById("washi");
+var imgUpdate = document.getElementById("washi2");
 
+imgUpdate.addEventListener("click", myFunction);
 
+function myFunction() {
+  imgChange.setAtttribute("src", )
+};
+};*/
 
 
 
 
   /*x.addEventListener("mouseout", Function());
+  let img = document.getElementById("washi");
 
-  function myFunction() {
-  	document.getElementById("hidden").innerHTML = ("string")
+  function swapImage() {
+    if(img.src == "images/washi.jpg") {
+      img.src = "images/washi2.jpg";
+    } else { img.src = "images/washi.jpg";
   }*/
+
+
+
+  /*var x = document.getElementById('first');
+  x.addEventListener("mouseover", myFunction);
+  x.addEventListener("mouseout", myFunction);
+
 
 
 /*function mouseRollOver(MyImage) {
